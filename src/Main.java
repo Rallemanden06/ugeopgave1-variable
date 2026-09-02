@@ -3,9 +3,11 @@ public class Main {
 
 //opgave 1
 
-
-
-
+        double[] price = {25.50,15.00,30.00};
+        double sum = price[0] + price[1] + price[2];
+        double tax = 25.0;
+        double withTax = sum + (sum * tax / 100);
+        System.out.println("Total pris med moms: " + withTax);
 
 //opgave 2
 
